@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+
+*{
+  color:white ;
+}
+
+body {
+  background-color:#111;
+}
+
+#task-list::-webkit-scrollbar{
+  display: none;
+}
+
+/* Emerald Scrollbar */
+#all-tasks::-webkit-scrollbar {
+width: 8px;
+height: 8px;
+}
+
+#all-tasks::-webkit-scrollbar-track {
+background: #064e3b;
+border-radius: 10px;
+}
+
+#all-tasks::-webkit-scrollbar-thumb {
+background: #10b981;
+border-radius: 10px;
+border: 2px solid #064e3b;
+}
+
+#all-tasks::-webkit-scrollbar-thumb:hover {
+background: #34d399;
+}
+
+/* Firefox Support */
+
+
